@@ -5,15 +5,14 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/adsfasdf"
+    android:background=""
     >
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="304dp"
-        android:layout_marginTop="508dp"
-        android:text="Next"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TimePicker android:id="@+id/timePicker" android:layout_width="300dp"
+        android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+    <TextClock android:id="@+id/textClock"
+    android:layout_width="150dp" android:layout_height="80dp" android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" android:layout_marginTop="37dp" />
+
 </RelativeLayout>
